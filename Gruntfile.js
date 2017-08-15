@@ -56,6 +56,7 @@ module.exports = function(grunt) {
 							'**/*.view.json',
 							'**/*.view.xml',
 							'**/*.properties',
+              'neo-app.json',
 							'manifest.json',
 							'!test/**'
 						]
@@ -206,5 +207,5 @@ module.exports = function(grunt) {
 	grunt.registerTask('build', ['clean:dist', 'openui5_preload', 'copy']);
 
 	// Default task
-	grunt.registerTask('default', ['serve']);
+	grunt.registerTask('default', ['build']);
 };

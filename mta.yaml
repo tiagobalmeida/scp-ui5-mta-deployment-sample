@@ -1,0 +1,19 @@
+_schema-version: "2.0.0"
+ID: "demo-id"
+version: 1.0.0
+
+parameters:
+  hcp-deployer-version: "1.0.0"
+
+modules:
+  - name: "demo-id"
+    type: com.sap.fiori.app
+    path: .
+    parameters:
+       html5-app-name: "demoid"
+       html5-app-display-name: "Demo ID"
+       minimum-sapui5-version: 1.44.10
+       html5-app-version: 1.0.0-${timestamp}
+    build-parameters:
+      builder: grunt
+      build-result: dist

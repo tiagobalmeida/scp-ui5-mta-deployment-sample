@@ -1,7 +1,11 @@
 ![OpenUI5 logo](http://openui5.org/images/OpenUI5_new_big_side.png)
 
-# openui5-sample-app
-> [OpenUI5](https://github.com/SAP/openui5) sample app using Grunt & Bower
+# CI/CD for SAP Cloud platform demo app
+This application is a sample on how you can do Continuous integration on Gitlab AND Automatic deployments to 
+SAP Cloud platform. It is based on the [https://github.com/SAP/openui5-sample-app](OpenUI5-sample-app) from SAP 
+but modified so that it works nicely with a gitlab instance and so that a gitlab pipeline can deploy it 
+automatically to SAP Cloud Platform.
+
 
 ## Getting started
 * Install Node.js (from [nodejs.org](http://nodejs.org/)).
